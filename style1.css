@@ -1,0 +1,58 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/** Block's parameters **/
+
+.container {
+    width: 1000px;
+    border: 5px solid darkgray;
+    padding: 5px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.container__header,
+.container__footer_left,
+.container__footer_right {
+    background-color: lightgray;
+    box-sizing: border-box;
+    border: 5px solid darkgray;
+    margin: 5px;
+}
+
+.container__header {
+    height: 150px;
+}
+
+.container__footer {
+    display: flex;
+    height: 500px;
+}
+
+.container__footer_left {
+    flex-grow: 3;
+}
+
+.container__footer_right {
+    flex-grow: 1;
+}
+
+/** Text style **/
+
+.text {
+    font-size: 50px;
+    color: black;
+}
+
+
+

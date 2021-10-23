@@ -1,0 +1,68 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/** Block's parameters **/
+
+.container {
+    width: 1000px;
+    margin: 20px auto ;
+    box-sizing: border-box;
+    border: 10px solid white;
+}
+
+.container__header {
+    height: 150px;
+    box-sizing: border-box;
+}
+
+.container__main {
+    display: flex;
+    height: 500px;
+}
+
+.container__main_left {
+    box-sizing: border-box;
+    flex-grow: 3;
+}
+
+.container__main_right {
+    box-sizing: border-box;
+    flex-grow: 1;
+}
+
+/** Text style **/
+
+.text {
+    font-size: 50px;
+    color: white;
+}
+
+/** Block's colors **/
+
+.box1 {
+    background-color: blue;
+}
+.box2 {
+    background-color: midnightblue;
+}
+.box3 {
+    background-color: cornflowerblue;
+}
+.box4 {
+    background-color: blueviolet;
+}
+.box5 {
+    background-color: aqua;
+}
+
+
+

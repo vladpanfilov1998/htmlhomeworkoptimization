@@ -1,0 +1,63 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/** Block's parameters **/
+
+.container {
+    height: 1000px ;
+    width: 800px;
+    padding: 5px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container__header {
+    height: 300px;
+    box-sizing: border-box;
+    margin: 10px;
+    background-color: royalblue;
+}
+
+.container__footer {
+    height: 600px;
+    box-sizing: border-box;
+    margin: 10px;
+    background-color: royalblue;
+}
+
+.container__main {
+    display: flex;
+    height: 300px;
+}
+
+.container__main_box {
+    box-sizing: border-box;
+    width: 400px;
+    margin: 10px;
+    background-color: midnightblue;
+}
+
+/** Text style **/
+
+.text {
+    font-size: 50px;
+    color: white;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.text_inside {
+    font-size: 35px;
+    color: white;
+    font-weight: normal;
+    font-style: normal;
+}
